@@ -16,7 +16,7 @@ Step 2: **Variable Selection**
 
 Post data cleaning, I wanted to reduce the number of variables needed for regression analysis. Lasso Regression seemed like a good approach to see the best set of variables. Which resulted in approximately 50 variables still being there. In the later step each column's distribution was plotted to check the distribution to understand if a particular column is skewed. All the columns which were skewed were ignored in the regression analysis.
 
-Step 3: **Modelling*
+Step 3: **Modelling**
 
 Once the variable selection was completed, a linear regression model was designed with the variables to render a model which would suggest the explainability of outcome using these variables. The model rendered an R-Squared value around 80% which was a good enough explainability percentage, considering the fact that higher R-Squared Value might result in overfitted model.
 
